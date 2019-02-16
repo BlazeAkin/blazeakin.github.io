@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>Bootstrap Theme The Band</title>
+  <title>8BIT Solutions</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -64,6 +64,7 @@
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
   }
+
   .thumbnail {
     padding: 0 0 15px 0;
     border: none;
@@ -117,6 +118,21 @@
   }
   .navbar-nav li a:hover {
     color: #fff !important;
+  }
+  a{
+    color: black;
+    text-decoration: none;
+  }
+
+  a:hover, a:visited{
+    text-decoration: none;
+  }
+
+  .list-group-item a:hover {
+    color: grey;
+  }
+  .list-group-item {
+    color: black;
   }
   .navbar-nav li.active a {
     color: #fff !important;
@@ -292,12 +308,49 @@
 <!-- Container (TOUR Section) -->
 <div id="tour" class="bg-1">
   <div class="container">
-    <h3 class="text-center">TOUR DATES</h3>
-    <p class="text-center">Lorem ipsum we'll play you some music.<br> Remember to book your tickets!</p>
+    <h3 class="text-center">ABOUT OUR TEAM MEMBERS</h3>
+    <p class="text-center">Gauge us up!</p>
+
     <ul class="list-group">
-      <li class="list-group-item">September <span class="label label-danger">Sold Out!</span></li>
-      <li class="list-group-item">October <span class="label label-danger">Sold Out!</span></li>
-      <li class="list-group-item">November <span class="badge">3</span></li>
+
+      <li class="list-group-item">
+        <a href="#gideonInfo" data-toggle="collapse">Gideon </a>
+        <div id="gideonInfo" class="collapse">
+          <p>Designed an App called YouWatch for MAD Challenge 2015</p>
+        	<p>Head Moderator of one of South Africa’s biggest Minecraft servers, Explosive Networks</p>
+        	<p>Manager of 8BIT Consultancy</p>
+        	<p>I play hockey when I'm bored.</p>
+        	<p>I am an avid computer enthusiast, and love all things technical.</p>
+        	<p>I play games socially with friends and gym in my free time.</p>
+        	<p>I am a highly energetic individual with a passion for people. </p>
+        	<p>I enjoy helping others figure out technical concepts and explain what they do. </p>
+        	<p>I want to utilize my people skills and vast amounts of knowledge and energy to teach the world the importance of IT in Businesses.</p>
+        </div> <span class="label label-primary">Founder</span></li>
+
+        <li class="list-group-item">
+          <a href="#barendInfo" data-toggle="collapse">Barend </a>
+          <div id="barendInfo" class="collapse">
+              <p>Outstanding performance in Marketing</p>
+	            <p>National Matric certificate</p>
+	            <p>Diploma in Computer Science</p>
+	            <p>Ex Manager of Specternetworks</p>
+              <p>Born in Pretoria in 1997</p>
+	            <p>Living in an apartment with my cat</p>
+	            <p>Currently studying at Tuks</p>
+          </div> <span class="label label-primary">Founder</span></li>
+
+          <li class="list-group-item">
+            <a href="#stevenInfo" data-toggle="collapse">Steven </a>
+            <div id="stevenInfo" class="collapse">
+              <p>Developed an algorithm that finds its way out of any maze</p>
+            	<p>Developed a game for children in my first semester</p>
+            	<p>Developed a fully functioning, randomly generated Roman Arena </p>
+              <p>I started programming at a young age, and was immediately interested in Computer Science</p>
+	            <p>I worked independently for many years before Gideon finally dragged me into the business</p>
+	            <p>I have been working here for a while now and I have to say it has been a pleasure</p>
+
+            </div> <span class="label label-primary">Founder</span></li>
+
     </ul>
 
     <div class="row text-center">
