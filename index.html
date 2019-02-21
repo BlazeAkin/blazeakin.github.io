@@ -30,16 +30,15 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#myPage">HOME</a></li>
-        <li><a href="#band">BAND</a></li>
-        <li><a href="#tour">TOUR</a></li>
+        <li><a href="#band">THE TEAM</a></li>
+        <li><a href="#tour">ABOUT</a></li>
         <li><a href="#contact">CONTACT</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Merchandise</a></li>
-            <li><a href="#">Extras</a></li>
-            <li><a href="#">Media</a></li>
+            <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
+
           </ul>
         </li>
         <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
@@ -105,9 +104,11 @@
 </div>
 
 <!-- Container (The Band Section) -->
-<div id="band" class="container text-center">
+<div id="team" class="container text-center">
   <h3>THE TEAM</h3>
   <p><em>Welcome to our page!</em></p>
+
+
 
   <div class="row">
     <div class="col-sm-4">
@@ -147,7 +148,7 @@
 </div>
 
 <!-- Container (TOUR Section) -->
-<div id="tour" class="bg-1">
+<div id="about" class="bg-1">
   <div class="container">
     <h3 class="text-center">ABOUT US</h3>
     <p class="text-center">Gauge us up!</p>
@@ -230,18 +231,47 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">×</button>
-          <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
+          <h4><span class="glyphicon glyphicon-lock"></span> Hosting Services</h4>
         </div>
         <div class="modal-body">
           <form role="form">
             <div class="form-group">
-              <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per person</label>
-              <input type="number" class="form-control" id="psw" placeholder="How many?">
-            </div>
-            <div class="form-group">
-              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
-              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
-            </div>
+              <div class="serviceItems">
+
+                  <div class="itemthumbnail">
+                    <div id="FloatLeft">
+                        <p><strong>Web Hosting</strong></p>
+                    <img id="stockimg" src="server.jpg" alt="Stock Image" >
+
+
+                    <button class="btn" data-toggle="modal" data-target="#myModal">Select Package</button>
+                  </div>
+                </div>
+
+                  <div class="itemthumbnail">
+                    <div id="FloatLeft">
+                      <p><strong>Database Hosting</strong></p>
+                    <img id="stockimg" src="server.jpg" alt="Stock Image" >
+
+                    <button class="btn" data-toggle="modal" data-target="#myModal">Select Package</button>
+                  </div>
+                </div>
+
+                  <div class="itemthumbnail">
+                    <div id="FloatLeft">
+                      <p><strong>Business Hosting</strong></p>
+                    <img id="stockimg" src="server.jpg" alt="Stock Image" >
+
+
+                    <button class="btn" data-toggle="modal" data-target="#myModal">Select Package</button>
+                  </div>
+                </div>
+
+
+
+              </div>
+              <br>
+
               <button type="submit" class="btn btn-block">Pay
                 <span class="glyphicon glyphicon-ok"></span>
               </button>
